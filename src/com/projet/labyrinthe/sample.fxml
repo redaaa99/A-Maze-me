@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" onKeyPressed="#keyListener" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.projet.labyrinthe.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="700.0" prefWidth="968.0">
+         <children>
+            <Pane id="mazeDisp" layoutX="14.0" layoutY="14.0" prefHeight="390.0" prefWidth="390.0">
+               <children>
+                  <Pane fx:id="mainPane" layoutX="4.0" layoutY="-8.0" prefHeight="675.0" prefWidth="675.0" />
+               </children>
+            </Pane>
+            <VBox alignment="CENTER" layoutX="701.0" layoutY="-2.0" prefHeight="685.0" prefWidth="259.0" spacing="11.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="29.0" prefWidth="134.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="26.0" prefWidth="89.0" text="Taille:">
+                           <font>
+                              <Font name="Monospaced Regular" size="17.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="tailleTextField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="48.0" />
+                     </children>
+                  </HBox>
+                  <Button fx:id="generateButton" mnemonicParsing="false" onAction="#handleGenerateClick" prefHeight="25.0" prefWidth="219.0" text="Generer" />
+                  <Button fx:id="solveButton" mnemonicParsing="false" onAction="#handleSolveClick" prefHeight="25.0" prefWidth="220.0" text="Resoudre" />
+                  <Button fx:id="clearButton" mnemonicParsing="false" onAction="#handleClearClick" prefHeight="25.0" prefWidth="222.0" text="Effacer" />
+                  <VBox alignment="CENTER" prefHeight="209.0" prefWidth="214.0" spacing="9.0">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="38.0" prefWidth="122.0" text="Generateur:">
+                                 <font>
+                                    <Font name="Monospaced Regular" size="17.0" />
+                                 </font>
+                              </Label>
+                              <CheckBox fx:id="imparfait" mnemonicParsing="false" onAction="#handleImparfaitClick" text="Imparfait" />
+                           </children>
+                        </HBox>
+                        <RadioButton contentDisplay="CENTER" mnemonicParsing="false" selected="true" text="Backtrack DFS">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="Grp" />
+                           </toggleGroup></RadioButton>
+                        <RadioButton contentDisplay="CENTER" mnemonicParsing="false" text="Kruskal" toggleGroup="$Grp" />
+                        <RadioButton contentDisplay="CENTER" mnemonicParsing="false" text="Prim" toggleGroup="$Grp" />
+                        <RadioButton contentDisplay="CENTER" mnemonicParsing="false" text="Eller's" toggleGroup="$Grp" />
+                        <RadioButton contentDisplay="CENTER" mnemonicParsing="false" text="Hunt And Kill" toggleGroup="$Grp" />
+                        <HBox prefHeight="24.0" prefWidth="76.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="32.0" prefWidth="99.0" text="Generé en: " />
+                              <Label fx:id="generationTime" alignment="CENTER" prefHeight="19.0" prefWidth="147.0" text="">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="295.0" prefWidth="259.0" spacing="9.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="57.0" prefWidth="122.0" text="Resolveur:">
+                           <font>
+                              <Font name="Monospaced Regular" size="17.0" />
+                           </font>
+                        </Label>
+                        <RadioButton contentDisplay="CENTER" mnemonicParsing="false" text="Djikstra">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="Grp1" />
+                           </toggleGroup>
+                        </RadioButton>
+                        <RadioButton contentDisplay="CENTER" mnemonicParsing="false" text="DFS" toggleGroup="$Grp1" />
+                        <RadioButton contentDisplay="CENTER" mnemonicParsing="false" text="BFS" toggleGroup="$Grp1" />
+                        <RadioButton contentDisplay="CENTER" mnemonicParsing="false" text="A*" toggleGroup="$Grp1" />
+                        <RadioButton  contentDisplay="CENTER" mnemonicParsing="false" selected="true" text="Wall Follower" toggleGroup="$Grp1" />
+                        <HBox prefHeight="42.0" prefWidth="259.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="31.0" prefWidth="115.0" text="Trouvé en: " />
+                              <Label fx:id="solveTime" alignment="CENTER" prefHeight="32.0" prefWidth="60.0">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="209.0" prefWidth="214.0" spacing="9.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="38.0" prefWidth="122.0" text="Animation">
+                           <font>
+                              <Font name="Monospaced Regular" size="17.0" />
+                           </font>
+                        </Label>
+                        <RadioButton fx:id="lent" contentDisplay="CENTER" mnemonicParsing="false" text="Avec">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="Grp2" />
+                           </toggleGroup></RadioButton>
+                        <RadioButton fx:id="sans" contentDisplay="CENTER" mnemonicParsing="false" selected="true" text="Sans" toggleGroup="$Grp2" />
+                        <HBox prefHeight="24.0" prefWidth="76.0">
+                           <children>
+                              <Label fx:id="generationTime1" alignment="CENTER" prefHeight="24.0" prefWidth="55.0" text="">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="aboutButton1" mnemonicParsing="false" onAction="#handleAboutClick" prefHeight="25.0" prefWidth="185.0" text="About" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </VBox>
+         </children>
+      </Pane>
+   </children>
+</GridPane>
