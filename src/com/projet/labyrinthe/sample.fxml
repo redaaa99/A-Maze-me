@@ -75,7 +75,7 @@
                               <Font name="Monospaced Regular" size="17.0" />
                            </font>
                         </Label>
-                        <RadioButton contentDisplay="CENTER" mnemonicParsing="false" text="Djikstra">
+                        <RadioButton contentDisplay="CENTER" mnemonicParsing="false" text="Dijkstra">
                            <toggleGroup>
                               <ToggleGroup fx:id="Grp1" />
                            </toggleGroup>
@@ -83,7 +83,7 @@
                         <RadioButton contentDisplay="CENTER" mnemonicParsing="false" text="DFS" toggleGroup="$Grp1" />
                         <RadioButton contentDisplay="CENTER" mnemonicParsing="false" text="BFS" toggleGroup="$Grp1" />
                         <RadioButton contentDisplay="CENTER" mnemonicParsing="false" text="A*" toggleGroup="$Grp1" />
-                        <RadioButton  contentDisplay="CENTER" mnemonicParsing="false" selected="true" text="Wall Follower" toggleGroup="$Grp1" />
+                        <RadioButton contentDisplay="CENTER" mnemonicParsing="false" selected="true" text="Wall Follower" toggleGroup="$Grp1" />
                         <HBox prefHeight="42.0" prefWidth="259.0">
                            <children>
                               <Label alignment="CENTER" prefHeight="31.0" prefWidth="115.0" text="Trouvé en: " />

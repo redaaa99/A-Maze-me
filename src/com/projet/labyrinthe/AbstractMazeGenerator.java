@@ -5,16 +5,11 @@ import javafx.scene.Group;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class AbstractMazeGenerator {
-    protected int width ;
-    protected int height ;
-    Group tilegroup;
+public abstract class AbstractMazeGenerator extends AbstractMaze{
     protected List<Cell> grid = new ArrayList<Cell>();
     protected Cell current;
     public AbstractMazeGenerator(int rows, int cols, Group tilegroup) {
-        height = rows;
-        width = cols;
-        this.tilegroup = tilegroup;
+    		super(rows,cols,tilegroup);
         grid.clear();
         for(int i=0 ; i<height ; i++) {
             for(int j=0 ; j<width ; j++) {
@@ -26,9 +21,6 @@ public abstract class AbstractMazeGenerator {
     public abstract AbstractMazeGenerator generateMaze();
     public List<Cell> getMaze() {
         return grid;
-    }
-    public int getIndex(int i, int j) {
-        return (i<0 || j<0 || j>width-1 || i>height-1) ?  -1 : (j + i*width);
     }
     public Cell checkVisitedNeighbors(Cell cell) {
         List<Cell> neighbors = new ArrayList<Cell>();
@@ -90,8 +82,5 @@ public abstract class AbstractMazeGenerator {
         }else {
             return null;
         }
-
     }
-
-
 }

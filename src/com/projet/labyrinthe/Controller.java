@@ -88,10 +88,33 @@ public class Controller {
     private  void handleAboutClick(ActionEvent e) {
         Alert alert = new Alert(Alert.AlertType.INFORMATION); // infos
         alert.setTitle("About");
+        alert.getDialogPane().setPrefSize(600,700);
         alert.setHeaderText("Realisé par:");
         alert.setContentText(" Meskali Reda \n Lagrini Youness \n Mastane Jihane" +
                 "\n Se deplacer en utilisant Z Q S D " +
-                "\n (Attention clavier azerty)\n");
+                "\n (Attention clavier azerty)\n\n\n" +
+                "MIT License\n" +
+                "\n" +
+                "Copyright (c) 2018 Reda Meskali\n" +
+                "\n" +
+                "Permission is hereby granted, free of charge, to any person obtaining a copy\n" +
+                "of this software and associated documentation files (the \"Software\"), to deal\n" +
+                "in the Software without restriction, including without limitation the rights\n" +
+                "to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n" +
+                "copies of the Software, and to permit persons to whom the Software is\n" +
+                "furnished to do so, subject to the following conditions:\n" +
+                "\n" +
+                "The above copyright notice and this permission notice shall be included in all\n" +
+                "copies or substantial portions of the Software.\n" +
+                "\n" +
+                "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n" +
+                "IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n" +
+                "FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n" +
+                "AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n" +
+                "LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n" +
+                "OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n" +
+                "SOFTWARE.\n\n\n" +
+                "Github: https://github.com/redaaa99/mazes");
         alert.showAndWait();
     }
     /*
@@ -115,6 +138,7 @@ public class Controller {
     */
     @FXML
     private void handleSolveClick(ActionEvent event) {
+        clearPathMaze(grid,tileGroup);
         solveMaze();
     }
 
@@ -197,6 +221,11 @@ public class Controller {
                         ,finishCell.getRow(),finishCell.getCol(),grid,tileGroup);
                 solver = dfsSolver;
                 return dfsSolver.getMaze();
+            case "Dijkstra": // profondeur
+                DijkstraSolver dijkstraSolver= new DijkstraSolver(mazeWidth,mazeHeight,player.getCol(),player.getRow()
+                        ,finishCell.getRow(),finishCell.getCol(),grid,tileGroup);
+                solver = dijkstraSolver;
+                return dijkstraSolver.getMaze();
             default:
                 WallFollower wallFollower4 = new WallFollower(mazeWidth,mazeHeight,player.getCol(),player.getRow()
                         ,finishCell.getRow(),finishCell.getCol(),grid,tileGroup);
@@ -222,7 +251,6 @@ public class Controller {
                 return new EllersGen(mazeWidth,mazeHeight,tileGroup).generateMaze().getMaze();
             case "Hunt And Kill":
                 return new HuntAndKillGenerator(mazeWidth,mazeHeight,tileGroup).generateMaze().getMaze();
-
             default:
                 return new DFSBackTrackerGenerator(mazeWidth,mazeHeight,tileGroup).generateMaze().getMaze();
         }
@@ -342,6 +370,29 @@ public class Controller {
         }
     }
     /*
+     *
+     */
+    private void clearPathMaze(List<Cell> grid,Group tilegroup) {
+        if(solver!=null) {
+            if(solver.getAt()!=null)
+            {
+                solver.getAt().stop(); // Arreter l'animation au cas ou ...
+            }
+        }
+   	 for (int x = 0; x < grid.size(); x++) {
+   		   grid.get(x).setVisited(true);
+           grid.get(x).setProcessed(false);
+           String helper1 , helper2;
+           helper2 = tilegroup.getChildren().get(x).getStyle();
+           helper2 = tilegroup.getChildren().get(x).getStyle();
+           helper2 = helper2.replace("#0b7c7c", "#FFF");
+           tilegroup.getChildren().get(x).setStyle(helper2);
+           helper1 = tilegroup.getChildren().get(x).getStyle();
+           helper1 = helper1.replace("#a3c9f8", "#FFF");
+           tilegroup.getChildren().get(x).setStyle(helper1);
+	  }
+}
+    /*
     * Gagné ?
     */
     public void checkWin() {
@@ -364,7 +415,7 @@ public class Controller {
     * Le monde n'est pas parfait ...
     */
     public void makeItImperfect() {
-        for(int i=0 ; i<(mazeWidth/2) ; i++) { // on enleve des murs aleatoires
+        for(int i=0 ; i<(grid.size()/10) ; i++) { // on enleve des murs aleatoires pour avoir plusieurs chemins à la cellule de destination
             int row = (int) ((Math.random() * (mazeHeight-2 - 1)) + 1);
             int col = (int) ((Math.random() * (mazeWidth-2 - 1)) + 1);
             Cell current = grid.get(getIndex(row,col));

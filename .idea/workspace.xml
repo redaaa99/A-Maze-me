@@ -6,7 +6,23 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/projet/labyrinthe/DijkstraSolver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/projet/labyrinthe/MinPathFinding.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/projet/labyrinthe/AStarSolver.java" afterPath="$PROJECT_DIR$/src/com/projet/labyrinthe/AStarSolver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/projet/labyrinthe/AbstractMazeGenerator.java" afterPath="$PROJECT_DIR$/src/com/projet/labyrinthe/AbstractMazeGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/projet/labyrinthe/AbstractSolver.java" afterPath="$PROJECT_DIR$/src/com/projet/labyrinthe/AbstractSolver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/projet/labyrinthe/BFSSolver.java" afterPath="$PROJECT_DIR$/src/com/projet/labyrinthe/BFSSolver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/projet/labyrinthe/Controller.java" afterPath="$PROJECT_DIR$/src/com/projet/labyrinthe/Controller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/projet/labyrinthe/DFSBackTrackerGenerator.java" afterPath="$PROJECT_DIR$/src/com/projet/labyrinthe/DFSBackTrackerGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/projet/labyrinthe/DFSSolver.java" afterPath="$PROJECT_DIR$/src/com/projet/labyrinthe/DFSSolver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/projet/labyrinthe/Main.java" afterPath="$PROJECT_DIR$/src/com/projet/labyrinthe/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/projet/labyrinthe/PrimGenerator.java" afterPath="$PROJECT_DIR$/src/com/projet/labyrinthe/PrimGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/projet/labyrinthe/WallFollower.java" afterPath="$PROJECT_DIR$/src/com/projet/labyrinthe/WallFollower.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/projet/labyrinthe/sample.fxml" afterPath="$PROJECT_DIR$/src/com/projet/labyrinthe/sample.fxml" />
+    </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -63,63 +79,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WallFollower.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/WallFollower.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+            <state relative-caret-position="180">
+              <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DFSSolver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/DFSSolver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="70" column="48" lean-forward="false" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BFSSolver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/BFSSolver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1134">
-              <caret line="70" column="5" lean-forward="false" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
-              <folding>
-                <element signature="e#1729#2674#0" expanded="true" />
-                <element signature="e#2673#2674#0" expanded="true" />
-                <element signature="method#OneIteration#0;class#BFSSolver#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="90" column="44" lean-forward="true" selection-start-line="90" selection-start-column="44" selection-end-line="90" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#initialize#0;class#Controller#0" expanded="false" />
-                <element signature="method#handleImparfaitClick#0;class#Controller#0" expanded="false" />
-                <element signature="method#keyListener#0;class#Controller#0" expanded="false" />
-                <element signature="method#generateMaze#0;class#Controller#0" expanded="false" />
-                <element signature="method#solveMaze#0;class#Controller#0" expanded="false" />
-                <element signature="method#getSelectedSpeed#0;class#Controller#0" expanded="false" />
-                <element signature="method#getSelectedSolver#0;class#Controller#0" expanded="false" />
-                <element signature="method#getSelectedGenerator#0;class#Controller#0" expanded="false" />
-                <element signature="method#DrawMaze#0;class#Controller#0" expanded="false" />
-                <element signature="method#getIndex#0;class#Controller#0" expanded="false" />
-                <element signature="method#updateGrid#0;class#Controller#0" expanded="false" />
-                <element signature="method#isInteger#0;class#Controller#0" expanded="false" />
-                <element signature="method#clearMaze#0;class#Controller#0" expanded="false" />
-                <element signature="method#checkWin#0;class#Controller#0" expanded="false" />
-                <element signature="method#makeItImperfect#0;class#Controller#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -127,46 +92,57 @@
       <file leaf-file-name="AStarSolver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/AStarSolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="151" column="5" lean-forward="false" selection-start-line="151" selection-start-column="5" selection-end-line="151" selection-end-column="5" />
+            <state relative-caret-position="774">
+              <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3186">
+              <caret line="234" column="5" lean-forward="false" selection-start-line="234" selection-start-column="5" selection-end-line="234" selection-end-column="5" />
               <folding>
-                <element signature="method#AStarSolver#0;class#AStarSolver#0" expanded="false" />
-                <element signature="method#OneIteration#0;class#AStarSolver#0" expanded="false" />
-                <element signature="method#getLowestScorePos#0;class#AStarSolver#0" expanded="false" />
-                <element signature="method#calculateScor#0;class#AStarSolver#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#initialize#0;class#Controller#0" expanded="false" />
+                <element signature="method#handleAboutClick#0;class#Controller#0" expanded="false" />
+                <element signature="method#keyListener#0;class#Controller#0" expanded="false" />
+                <element signature="method#getSelectedSpeed#0;class#Controller#0" expanded="false" />
+                <element signature="method#DrawMaze#0;class#Controller#0" expanded="false" />
+                <element signature="method#getIndex#0;class#Controller#0" expanded="false" />
+                <element signature="method#updateGrid#0;class#Controller#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sample.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/sample.fxml">
+      <file leaf-file-name="WallFollower.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/WallFollower.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrimGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/PrimGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+            <state relative-caret-position="1674">
+              <caret line="97" column="16" lean-forward="false" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/Main.java">
+      <file leaf-file-name="PathFinding.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/PathFinding.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="414">
+              <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DijkstraSolver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/DijkstraSolver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="53" column="34" lean-forward="false" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,7 +150,146 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="JAVA/com.projet.labyrinthe" pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/com.projet.labyrinthe">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.projet.labyrinthe</OriginalElement>
+              <nodes>
+                <node x="1213.2020373514433" y="1027.3344651952461">com.projet.labyrinthe.BFSSolver</node>
+                <node x="263.8947368421052" y="801.0">com.projet.labyrinthe.AStarSolver</node>
+                <node x="1314.640067911715" y="790.1867572156195">com.projet.labyrinthe.Player</node>
+                <node x="509.0" y="469.0">com.projet.labyrinthe.DFSSolver</node>
+                <node x="1649.2733446519524" y="1283.925297113752">com.projet.labyrinthe.DisjointSets</node>
+                <node x="1011.0" y="369.0">com.projet.labyrinthe.AbstractSolver</node>
+                <node x="2064.0" y="524.0">com.projet.labyrinthe.PrimGenerator</node>
+                <node x="2077.106960950764" y="700.8030560271645">com.projet.labyrinthe.Controller</node>
+                <node x="1565.0" y="1501.0">com.projet.labyrinthe.FinishCell</node>
+                <node x="1901.0" y="0.0">com.projet.labyrinthe.DFSBackTrackerGenerator</node>
+                <node x="2207.0" y="180.0">com.projet.labyrinthe.EllersGen</node>
+                <node x="698.509337860781" y="1008.0509337860781">com.projet.labyrinthe.MinPathFinding</node>
+                <node x="1508.0" y="384.0">com.projet.labyrinthe.AbstractMaze</node>
+                <node x="1821.0" y="274.0">com.projet.labyrinthe.AbstractMazeGenerator</node>
+                <node x="709.2003395585737" y="1313.692699490662">com.projet.labyrinthe.DijkstraSolver</node>
+                <node x="1689.0" y="618.0">com.projet.labyrinthe.HuntAndKillGenerator</node>
+                <node x="746.0" y="756.0">com.projet.labyrinthe.PathFinding</node>
+                <node x="1666.1663837011886" y="773.1612903225805">com.projet.labyrinthe.Cell</node>
+                <node x="1515.0" y="7.0">com.projet.labyrinthe.KruskalMazeGenerator</node>
+                <node x="1803.0" y="1501.0">com.projet.labyrinthe.Main</node>
+                <node x="916.0" y="55.0">com.projet.labyrinthe.WallFollower</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.projet.labyrinthe.MinPathFinding" target="com.projet.labyrinthe.PathFinding">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="com.projet.labyrinthe.AStarSolver" target="com.projet.labyrinthe.MinPathFinding">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="com.projet.labyrinthe.AbstractMazeGenerator" target="com.projet.labyrinthe.AbstractMaze">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="com.projet.labyrinthe.HuntAndKillGenerator" target="com.projet.labyrinthe.AbstractMazeGenerator">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="com.projet.labyrinthe.DFSSolver" target="com.projet.labyrinthe.PathFinding">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="com.projet.labyrinthe.KruskalMazeGenerator" target="com.projet.labyrinthe.AbstractMazeGenerator">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="com.projet.labyrinthe.PathFinding" target="com.projet.labyrinthe.AbstractSolver">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="com.projet.labyrinthe.AbstractSolver" target="com.projet.labyrinthe.AbstractMaze">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="com.projet.labyrinthe.EllersGen" target="com.projet.labyrinthe.AbstractMazeGenerator">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="com.projet.labyrinthe.DijkstraSolver" target="com.projet.labyrinthe.MinPathFinding">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="com.projet.labyrinthe.DFSBackTrackerGenerator" target="com.projet.labyrinthe.AbstractMazeGenerator">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="com.projet.labyrinthe.BFSSolver" target="com.projet.labyrinthe.PathFinding">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="com.projet.labyrinthe.WallFollower" target="com.projet.labyrinthe.AbstractSolver">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="com.projet.labyrinthe.PrimGenerator" target="com.projet.labyrinthe.AbstractMazeGenerator">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.23494216194654965" x="3105.3421052631584" y="1235.971986417657" />
+              <SelectedNodes>
+                <node>com.projet.labyrinthe.DijkstraSolver</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Inner Classes</Category>
+                <Category>Constructors</Category>
+                <Category>Properties</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MinPathFinding.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/MinPathFinding.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractSolver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/AbstractSolver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="39" column="59" lean-forward="false" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#AbstractSolver#0;class#AbstractSolver#0" expanded="false" />
+                <element signature="e#907#908#0" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -187,6 +302,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -197,15 +315,18 @@
       <list>
         <option value="$PROJECT_DIR$/.idea/artifacts/JavaFXApp.xml" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/src/com/projet/labyrinthe/WallFollower.java" />
-        <option value="$PROJECT_DIR$/src/com/projet/labyrinthe/DFSSolver.java" />
         <option value="$PROJECT_DIR$/src/com/projet/labyrinthe/AbstractMazeGenerator.java" />
         <option value="$PROJECT_DIR$/src/com/projet/labyrinthe/BFSSolver.java" />
-        <option value="$PROJECT_DIR$/src/com/projet/labyrinthe/AStarSolver.java" />
+        <option value="$PROJECT_DIR$/src/com/projet/labyrinthe/DFSSolver.java" />
+        <option value="$PROJECT_DIR$/src/com/projet/labyrinthe/WallFollower.java" />
         <option value="$PROJECT_DIR$/src/com/projet/labyrinthe/AbstractSolver.java" />
+        <option value="$PROJECT_DIR$/src/com/projet/labyrinthe/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/projet/labyrinthe/PathFinding.java" />
         <option value="$PROJECT_DIR$/src/com/projet/labyrinthe/Controller.java" />
         <option value="$PROJECT_DIR$/src/com/projet/labyrinthe/sample.fxml" />
-        <option value="$PROJECT_DIR$/src/com/projet/labyrinthe/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/projet/labyrinthe/MinPathFinding.java" />
+        <option value="$PROJECT_DIR$/src/com/projet/labyrinthe/AStarSolver.java" />
+        <option value="$PROJECT_DIR$/src/com/projet/labyrinthe/DijkstraSolver.java" />
       </list>
     </option>
   </component>
@@ -216,12 +337,13 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1612" />
     <option name="height" value="876" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -240,7 +362,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
@@ -266,6 +387,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -283,6 +405,8 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Bureau" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -454,49 +578,57 @@
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1516057182420" duration="4413000" />
+      <workItem from="1516117692080" duration="5335000" />
+      <workItem from="1516123945413" duration="459000" />
+      <workItem from="1516146682331" duration="1049000" />
+      <workItem from="1516152327060" duration="279000" />
+      <workItem from="1516152734946" duration="65000" />
+      <workItem from="1516208216084" duration="328000" />
+      <workItem from="1516219824725" duration="2757000" />
+      <workItem from="1516223437632" duration="714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5715000" />
+    <option name="totallyTimeSpent" value="16701000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <frame x="-8" y="-8" width="1303" height="780" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25099602" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3763608" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27729085" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +643,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -520,13 +652,402 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/WallFollower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1674">
+          <caret line="97" column="16" lean-forward="false" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/PathFinding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/DijkstraSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="53" column="34" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/MinPathFinding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/AbstractSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="39" column="59" lean-forward="false" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#AbstractSolver#0;class#AbstractSolver#0" expanded="false" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.projet.labyrinthe">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.projet.labyrinthe</OriginalElement>
+          <nodes>
+            <node x="1213.2020373514433" y="1027.3344651952461">com.projet.labyrinthe.BFSSolver</node>
+            <node x="263.8947368421052" y="801.0">com.projet.labyrinthe.AStarSolver</node>
+            <node x="1314.640067911715" y="790.1867572156195">com.projet.labyrinthe.Player</node>
+            <node x="509.0" y="469.0">com.projet.labyrinthe.DFSSolver</node>
+            <node x="1649.2733446519524" y="1283.925297113752">com.projet.labyrinthe.DisjointSets</node>
+            <node x="1011.0" y="369.0">com.projet.labyrinthe.AbstractSolver</node>
+            <node x="2064.0" y="524.0">com.projet.labyrinthe.PrimGenerator</node>
+            <node x="2077.106960950764" y="700.8030560271645">com.projet.labyrinthe.Controller</node>
+            <node x="1565.0" y="1501.0">com.projet.labyrinthe.FinishCell</node>
+            <node x="1901.0" y="0.0">com.projet.labyrinthe.DFSBackTrackerGenerator</node>
+            <node x="2207.0" y="180.0">com.projet.labyrinthe.EllersGen</node>
+            <node x="698.509337860781" y="1008.0509337860781">com.projet.labyrinthe.MinPathFinding</node>
+            <node x="1508.0" y="384.0">com.projet.labyrinthe.AbstractMaze</node>
+            <node x="1821.0" y="274.0">com.projet.labyrinthe.AbstractMazeGenerator</node>
+            <node x="709.2003395585737" y="1313.692699490662">com.projet.labyrinthe.DijkstraSolver</node>
+            <node x="1689.0" y="618.0">com.projet.labyrinthe.HuntAndKillGenerator</node>
+            <node x="746.0" y="756.0">com.projet.labyrinthe.PathFinding</node>
+            <node x="1666.1663837011886" y="773.1612903225805">com.projet.labyrinthe.Cell</node>
+            <node x="1515.0" y="7.0">com.projet.labyrinthe.KruskalMazeGenerator</node>
+            <node x="1803.0" y="1501.0">com.projet.labyrinthe.Main</node>
+            <node x="916.0" y="55.0">com.projet.labyrinthe.WallFollower</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.projet.labyrinthe.MinPathFinding" target="com.projet.labyrinthe.PathFinding">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.projet.labyrinthe.AStarSolver" target="com.projet.labyrinthe.MinPathFinding">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.projet.labyrinthe.AbstractMazeGenerator" target="com.projet.labyrinthe.AbstractMaze">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.projet.labyrinthe.HuntAndKillGenerator" target="com.projet.labyrinthe.AbstractMazeGenerator">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.projet.labyrinthe.DFSSolver" target="com.projet.labyrinthe.PathFinding">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.projet.labyrinthe.KruskalMazeGenerator" target="com.projet.labyrinthe.AbstractMazeGenerator">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.projet.labyrinthe.PathFinding" target="com.projet.labyrinthe.AbstractSolver">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.projet.labyrinthe.AbstractSolver" target="com.projet.labyrinthe.AbstractMaze">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.projet.labyrinthe.EllersGen" target="com.projet.labyrinthe.AbstractMazeGenerator">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.projet.labyrinthe.DijkstraSolver" target="com.projet.labyrinthe.MinPathFinding">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.projet.labyrinthe.DFSBackTrackerGenerator" target="com.projet.labyrinthe.AbstractMazeGenerator">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.projet.labyrinthe.BFSSolver" target="com.projet.labyrinthe.PathFinding">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.projet.labyrinthe.WallFollower" target="com.projet.labyrinthe.AbstractSolver">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.projet.labyrinthe.PrimGenerator" target="com.projet.labyrinthe.AbstractMazeGenerator">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.23494216194654965" x="3105.3421052631584" y="1235.971986417657" />
+          <SelectedNodes>
+            <node>com.projet.labyrinthe.DijkstraSolver</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initialize#0;class#Controller#0" expanded="false" />
+            <element signature="method#handleAboutClick#0;class#Controller#0" expanded="false" />
+            <element signature="method#keyListener#0;class#Controller#0" expanded="false" />
+            <element signature="method#getSelectedSpeed#0;class#Controller#0" expanded="false" />
+            <element signature="method#DrawMaze#0;class#Controller#0" expanded="false" />
+            <element signature="method#getIndex#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateGrid#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/WallFollower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2232">
+          <caret line="128" column="40" lean-forward="false" selection-start-line="128" selection-start-column="40" selection-end-line="128" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/AbstractSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="39" column="59" lean-forward="false" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#AbstractSolver#0;class#AbstractSolver#0" expanded="false" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="85" column="6" lean-forward="false" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initialize#0;class#Controller#0" expanded="false" />
+            <element signature="method#handleAboutClick#0;class#Controller#0" expanded="false" />
+            <element signature="method#keyListener#0;class#Controller#0" expanded="false" />
+            <element signature="method#getSelectedSpeed#0;class#Controller#0" expanded="false" />
+            <element signature="method#DrawMaze#0;class#Controller#0" expanded="false" />
+            <element signature="method#getIndex#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateGrid#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/WallFollower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2304">
+          <caret line="128" column="40" lean-forward="false" selection-start-line="128" selection-start-column="40" selection-end-line="128" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/AbstractSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="39" column="59" lean-forward="false" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#AbstractSolver#0;class#AbstractSolver#0" expanded="false" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="85" column="6" lean-forward="true" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initialize#0;class#Controller#0" expanded="false" />
+            <element signature="method#handleAboutClick#0;class#Controller#0" expanded="false" />
+            <element signature="method#keyListener#0;class#Controller#0" expanded="false" />
+            <element signature="method#getSelectedSpeed#0;class#Controller#0" expanded="false" />
+            <element signature="method#DrawMaze#0;class#Controller#0" expanded="false" />
+            <element signature="method#getIndex#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateGrid#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/WallFollower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2304">
+          <caret line="128" column="40" lean-forward="false" selection-start-line="128" selection-start-column="40" selection-end-line="128" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/AbstractSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="39" column="59" lean-forward="false" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#AbstractSolver#0;class#AbstractSolver#0" expanded="false" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="119" column="5" lean-forward="false" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initialize#0;class#Controller#0" expanded="false" />
+            <element signature="method#handleAboutClick#0;class#Controller#0" expanded="false" />
+            <element signature="method#keyListener#0;class#Controller#0" expanded="false" />
+            <element signature="method#getSelectedSpeed#0;class#Controller#0" expanded="false" />
+            <element signature="method#DrawMaze#0;class#Controller#0" expanded="false" />
+            <element signature="method#getIndex#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateGrid#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/WallFollower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2232">
+          <caret line="128" column="40" lean-forward="false" selection-start-line="128" selection-start-column="40" selection-end-line="128" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/AbstractSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="39" column="59" lean-forward="false" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#AbstractSolver#0;class#AbstractSolver#0" expanded="false" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/WallFollower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="954">
+          <caret line="56" column="5" lean-forward="false" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/DFSSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="70" column="48" lean-forward="false" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/BFSSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="70" column="5" lean-forward="false" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/AStarSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="151" column="5" lean-forward="false" selection-start-line="151" selection-start-column="5" selection-end-line="151" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="90" column="44" lean-forward="true" selection-start-line="90" selection-start-column="44" selection-end-line="90" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initialize#0;class#Controller#0" expanded="false" />
+            <element signature="method#handleAboutClick#0;class#Controller#0" expanded="false" />
+            <element signature="method#keyListener#0;class#Controller#0" expanded="false" />
+            <element signature="method#getSelectedSpeed#0;class#Controller#0" expanded="false" />
+            <element signature="method#DrawMaze#0;class#Controller#0" expanded="false" />
+            <element signature="method#getIndex#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateGrid#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/sample.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/PrimGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -534,7 +1055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
@@ -545,7 +1065,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initialize#0;class#Controller#0" expanded="false" />
+            <element signature="method#handleAboutClick#0;class#Controller#0" expanded="false" />
+            <element signature="method#keyListener#0;class#Controller#0" expanded="false" />
+            <element signature="method#getSelectedSpeed#0;class#Controller#0" expanded="false" />
+            <element signature="method#DrawMaze#0;class#Controller#0" expanded="false" />
+            <element signature="method#getIndex#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateGrid#0;class#Controller#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -553,9 +1082,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -563,7 +1089,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
           <caret line="5" column="60" lean-forward="false" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -571,7 +1096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -579,12 +1103,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="312" column="65" lean-forward="false" selection-start-line="312" selection-start-column="65" selection-end-line="312" selection-end-column="65" />
-          <folding>
-            <marker date="1516061581185" expanded="true" signature="41421:41438" ph="..." />
-            <marker date="1516061581185" expanded="true" signature="42254:42272" ph="..." />
-            <marker date="1516061581185" expanded="true" signature="42254:42285" ph="..." />
-            <marker date="1516061581185" expanded="true" signature="44926:44941" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -592,7 +1110,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/AbstractMazeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/DFSSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/BFSSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -604,114 +1142,205 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/AbstractMazeGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/AbstractMaze.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="method#checkVisitedNeighbors#0;class#AbstractMazeGenerator#0" expanded="false" />
-            <element signature="method#checkNeighbors#0;class#AbstractMazeGenerator#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/DFSSolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="70" column="48" lean-forward="false" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="48" />
-          <folding />
+        <state relative-caret-position="162">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/AbstractSolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        <state relative-caret-position="540">
+          <caret line="39" column="59" lean-forward="false" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#AbstractSolver#0;class#AbstractSolver#0" expanded="false" />
-            <element signature="method#setCurandPrev#0;class#AbstractSolver#0" expanded="false" />
-            <element signature="method#getNeighbors#0;class#AbstractSolver#0" expanded="false" />
-            <element signature="method#drawPath#0;class#AbstractSolver#0" expanded="false" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/WallFollower.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        <state relative-caret-position="1674">
+          <caret line="97" column="16" lean-forward="false" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/BFSSolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="70" column="5" lean-forward="false" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
-          <folding>
-            <element signature="e#1729#2674#0" expanded="true" />
-            <element signature="e#2673#2674#0" expanded="true" />
-            <element signature="method#OneIteration#0;class#BFSSolver#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="90" column="44" lean-forward="true" selection-start-line="90" selection-start-column="44" selection-end-line="90" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#initialize#0;class#Controller#0" expanded="false" />
-            <element signature="method#handleImparfaitClick#0;class#Controller#0" expanded="false" />
-            <element signature="method#keyListener#0;class#Controller#0" expanded="false" />
-            <element signature="method#generateMaze#0;class#Controller#0" expanded="false" />
-            <element signature="method#solveMaze#0;class#Controller#0" expanded="false" />
-            <element signature="method#getSelectedSpeed#0;class#Controller#0" expanded="false" />
-            <element signature="method#getSelectedSolver#0;class#Controller#0" expanded="false" />
-            <element signature="method#getSelectedGenerator#0;class#Controller#0" expanded="false" />
-            <element signature="method#DrawMaze#0;class#Controller#0" expanded="false" />
-            <element signature="method#getIndex#0;class#Controller#0" expanded="false" />
-            <element signature="method#updateGrid#0;class#Controller#0" expanded="false" />
-            <element signature="method#isInteger#0;class#Controller#0" expanded="false" />
-            <element signature="method#clearMaze#0;class#Controller#0" expanded="false" />
-            <element signature="method#checkWin#0;class#Controller#0" expanded="false" />
-            <element signature="method#makeItImperfect#0;class#Controller#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/AStarSolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="151" column="5" lean-forward="false" selection-start-line="151" selection-start-column="5" selection-end-line="151" selection-end-column="5" />
-          <folding>
-            <element signature="method#AStarSolver#0;class#AStarSolver#0" expanded="false" />
-            <element signature="method#OneIteration#0;class#AStarSolver#0" expanded="false" />
-            <element signature="method#getLowestScorePos#0;class#AStarSolver#0" expanded="false" />
-            <element signature="method#calculateScor#0;class#AStarSolver#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/sample.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="198">
+          <caret line="77" column="120" lean-forward="false" selection-start-line="77" selection-start-column="120" selection-end-line="77" selection-end-column="120" />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="3186">
+          <caret line="234" column="5" lean-forward="false" selection-start-line="234" selection-start-column="5" selection-end-line="234" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initialize#0;class#Controller#0" expanded="false" />
+            <element signature="method#handleAboutClick#0;class#Controller#0" expanded="false" />
+            <element signature="method#keyListener#0;class#Controller#0" expanded="false" />
+            <element signature="method#getSelectedSpeed#0;class#Controller#0" expanded="false" />
+            <element signature="method#DrawMaze#0;class#Controller#0" expanded="false" />
+            <element signature="method#getIndex#0;class#Controller#0" expanded="false" />
+            <element signature="method#updateGrid#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/PathFinding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/MinPathFinding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/AStarSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/projet/labyrinthe/DijkstraSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="53" column="34" lean-forward="false" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.projet.labyrinthe">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.projet.labyrinthe</OriginalElement>
+          <nodes>
+            <node x="1213.2020373514433" y="1027.3344651952461">com.projet.labyrinthe.BFSSolver</node>
+            <node x="263.8947368421052" y="801.0">com.projet.labyrinthe.AStarSolver</node>
+            <node x="1314.640067911715" y="790.1867572156195">com.projet.labyrinthe.Player</node>
+            <node x="509.0" y="469.0">com.projet.labyrinthe.DFSSolver</node>
+            <node x="1649.2733446519524" y="1283.925297113752">com.projet.labyrinthe.DisjointSets</node>
+            <node x="1011.0" y="369.0">com.projet.labyrinthe.AbstractSolver</node>
+            <node x="2064.0" y="524.0">com.projet.labyrinthe.PrimGenerator</node>
+            <node x="2077.106960950764" y="700.8030560271645">com.projet.labyrinthe.Controller</node>
+            <node x="1565.0" y="1501.0">com.projet.labyrinthe.FinishCell</node>
+            <node x="1901.0" y="0.0">com.projet.labyrinthe.DFSBackTrackerGenerator</node>
+            <node x="2207.0" y="180.0">com.projet.labyrinthe.EllersGen</node>
+            <node x="698.509337860781" y="1008.0509337860781">com.projet.labyrinthe.MinPathFinding</node>
+            <node x="1508.0" y="384.0">com.projet.labyrinthe.AbstractMaze</node>
+            <node x="1821.0" y="274.0">com.projet.labyrinthe.AbstractMazeGenerator</node>
+            <node x="709.2003395585737" y="1313.692699490662">com.projet.labyrinthe.DijkstraSolver</node>
+            <node x="1689.0" y="618.0">com.projet.labyrinthe.HuntAndKillGenerator</node>
+            <node x="746.0" y="756.0">com.projet.labyrinthe.PathFinding</node>
+            <node x="1666.1663837011886" y="773.1612903225805">com.projet.labyrinthe.Cell</node>
+            <node x="1515.0" y="7.0">com.projet.labyrinthe.KruskalMazeGenerator</node>
+            <node x="1803.0" y="1501.0">com.projet.labyrinthe.Main</node>
+            <node x="916.0" y="55.0">com.projet.labyrinthe.WallFollower</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.projet.labyrinthe.MinPathFinding" target="com.projet.labyrinthe.PathFinding">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.projet.labyrinthe.AStarSolver" target="com.projet.labyrinthe.MinPathFinding">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.projet.labyrinthe.AbstractMazeGenerator" target="com.projet.labyrinthe.AbstractMaze">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.projet.labyrinthe.HuntAndKillGenerator" target="com.projet.labyrinthe.AbstractMazeGenerator">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.projet.labyrinthe.DFSSolver" target="com.projet.labyrinthe.PathFinding">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.projet.labyrinthe.KruskalMazeGenerator" target="com.projet.labyrinthe.AbstractMazeGenerator">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.projet.labyrinthe.PathFinding" target="com.projet.labyrinthe.AbstractSolver">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.projet.labyrinthe.AbstractSolver" target="com.projet.labyrinthe.AbstractMaze">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.projet.labyrinthe.EllersGen" target="com.projet.labyrinthe.AbstractMazeGenerator">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.projet.labyrinthe.DijkstraSolver" target="com.projet.labyrinthe.MinPathFinding">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.projet.labyrinthe.DFSBackTrackerGenerator" target="com.projet.labyrinthe.AbstractMazeGenerator">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.projet.labyrinthe.BFSSolver" target="com.projet.labyrinthe.PathFinding">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.projet.labyrinthe.WallFollower" target="com.projet.labyrinthe.AbstractSolver">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.projet.labyrinthe.PrimGenerator" target="com.projet.labyrinthe.AbstractMazeGenerator">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.23494216194654965" x="3105.3421052631584" y="1235.971986417657" />
+          <SelectedNodes>
+            <node>com.projet.labyrinthe.DijkstraSolver</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>

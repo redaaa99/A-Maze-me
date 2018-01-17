@@ -5,20 +5,19 @@ import javafx.scene.Group;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AStarSolver extends MinPathFinding{
+public class DijkstraSolver extends MinPathFinding{
 
-    public AStarSolver(int width, int height, int i, int j, int ia, int ja, List<Cell> grid, Group tilegroupe) {
+    public DijkstraSolver(int width, int height, int i, int j, int ia, int ja, List<Cell> grid, Group tilegroupe) {
         super(width, height, i, j, ia, ja, grid, tilegroupe);
         solve();
     }
     public void solve() {
-    	if(Controller.animationSpeed==0) {
+        if(Controller.animationSpeed==0) {
             while (!openList.isEmpty()) {
                 posMin = getLowestScorePos(scors);
                 current = openList.get(posMin);
                 if (current.getRow() == ia && current.getCol() == ja) {
                     pathFound = true;
-                    break;
                 }
                 OneIteration();
             }
@@ -32,28 +31,25 @@ public class AStarSolver extends MinPathFinding{
             at = new AnimationTimer(){
                 @Override
                 public void handle(long now) {
-                    posMin = getLowestScorePos(scors);
-                    current = openList.get(posMin);
-                    if (current.getRow() == ia && current.getCol() == ja) {
+                    if (openList.isEmpty()) {
                         markThePath();
                         drawPath();
                         this.stop();
+                    }else {
+                        posMin = getLowestScorePos(scors);
+                        current = openList.get(posMin);
+                        OneIteration();
                     }
-                    OneIteration();
                 }
             };
             at.start();
         }
     }
-    public int calculateScor(int starti , int startj , int endi , int endj) {
-        return Math.abs(endi-starti) + Math.abs(endj-startj);
-    }
-
-	@Override
-	public void testNeighbors(int indexCurr, int indexNeighbor , int wall) {
-		Cell neighbor = (indexNeighbor != -1) ? grid.get(indexNeighbor) : null;
-		if (neighbor != null && !current.getPosWalls(wall) && !closedList.contains(neighbor)) {
-            int scor = calculateScor(neighbor.getRow(), neighbor.getCol(), ia, ja) + scors.get(posMin) + 1;
+    @Override
+    public void testNeighbors(int indexCurr, int indexNeighbor , int wall) {
+        Cell neighbor = (indexNeighbor != -1) ? grid.get(indexNeighbor) : null;
+        if (neighbor != null && !current.getPosWalls(wall) && !closedList.contains(neighbor)) {
+            int scor = scors.get(posMin) + 1;
             if (!openList.contains(neighbor)) {
                 parents.add(indexCurr);
                 childrens.add(indexNeighbor);
@@ -63,6 +59,6 @@ public class AStarSolver extends MinPathFinding{
                 parents.set(parents.indexOf(indexNeighbor), indexCurr);
                 scors.set(openList.indexOf(neighbor), scor);
             }
-        }	
-	}
+        }
+    }
 }

@@ -5,6 +5,7 @@ import java.util.*;
 
 public class PrimGenerator extends AbstractMazeGenerator{
     List<Cell> listOfWalls = new ArrayList<Cell>();
+    
     public PrimGenerator(int rows, int cols, Group tileGroup) {
         super(rows,cols,tileGroup);
     }
